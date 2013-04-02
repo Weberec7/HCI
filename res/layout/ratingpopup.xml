@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_menu_root"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="50dip"
+   android:text="Enter Your Rating for "
+   android:gravity="top"
+   android:textSize="25sp"
+/>
+
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="50dip"
+   android:text="&quot;A Well Known Group&quot;"
+   android:gravity="top|center"
+   android:textSize="30sp"
+/>
+     
+     
+    <RatingBar android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/ratingBarStyle"
+        android:id="@+id/your_rating" />
+        
+        <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="15dip"
+   android:text=""
+/>
+
+<TextView
+        android:contentDescription="Instructions"
+   android:layout_width="fill_parent" 
+   android:layout_height="35dip"
+   android:text="Instructions :"
+   android:gravity="top"
+   android:textSize="20sp"
+/>
+
+<TextView
+        android:contentDescription="Content"
+   android:layout_width="fill_parent" 
+   android:layout_height="135dip"
+   android:text="Please touch your phone to the &quot;Rate the Band&quot; section of the poster to upload content via RFID. Then hit &quot;Submit&quot;"
+   android:gravity="top"
+   android:textSize="15sp"
+/>
+
+<TextView
+        android:contentDescription="Warning"
+   android:layout_width="fill_parent" 
+   android:layout_height="40dip"
+   android:text="**You can only submit one rating.**"
+   android:gravity="top|center"
+   android:textSize="15sp"
+/>
+        
+        <TableLayout 
+     android:id="@+id/TableLayout01" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:gravity="center">
+     
+     <TableRow android:id="@+id/TableRow01"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content">
+     
+     <Button android:id="@+id/popup_menu_button1"
+        android:text="Cancel"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content" 
+        android:padding="3dip"/>
+    <Button android:id="@+id/popup_menu_button2"
+        android:text="Submit"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_column="1" 
+        android:padding="3dip"/>
+        
+     </TableRow>
+     </TableLayout>
+
+
+</LinearLayout>

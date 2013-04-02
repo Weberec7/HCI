@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:gravity="center"
+>
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text="Tour Dates"
+   android:gravity="center"
+   android:textSize="25dip"
+/>
+
+<TextView 
+android:layout_width="fill_parent"
+android:layout_height="15dip"
+android:text=""
+/>
+
+<ImageView
+android:id="@+id/tourdate"
+android:layout_width="wrap_content"
+android:layout_height="300dip"
+android:src="@drawable/tourdate"
+android:gravity="center"
+/>
+
+<TextView 
+android:layout_width="fill_parent"
+android:layout_height="15dip"
+android:text=""
+/>
+
+<Button 
+   android:id ="@+id/btnClick"
+   android:layout_width="170dip"
+   android:layout_height="wrap_content"
+   android:text="Main Menu" android:gravity="center"
+   android:drawableLeft="@drawable/icon_btn"/>
+   
+   
+
+</LinearLayout>

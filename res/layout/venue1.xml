@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:gravity="center"
+>
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text="Cardiff International Arena"
+   android:gravity="center"
+   android:textSize= "25sp"
+   
+/>
+
+<TextView 
+android:text="" 
+android:layout_height="15dip"
+android:layout_width="fill_parent">
+</TextView>
+
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="50dip"
+   android:text="Cardiff's Largest Venue"
+   android:textSize= "20sp"
+   android:gravity="center"
+   android:background="#aa000000"
+/>
+
+<TextView 
+android:text="" 
+android:layout_height="15dip"
+android:layout_width="fill_parent">
+</TextView>
+
+
+<ImageView
+android:id="@+id/image"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/cia"
+android:gravity="center"
+android:background="@drawable/border"
+/>
+
+<TextView 
+android:text="" 
+android:layout_height="15dip"
+android:layout_width="fill_parent">
+</TextView>
+
+
+<TableLayout android:id="@+id/TableLayout01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+
+<TableRow android:id="@+id/TableRow01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+
+
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="25dip"
+   android:text="Telephone: "
+   android:gravity="bottom|center"
+   android:background="#aa000000"
+   android:paddingLeft="80dip"
+/>
+
+<TextView
+android:id="@+id/myphone"
+   android:layout_width="fill_parent" 
+   android:layout_height="25dip"
+   android:text="02920224488"
+   android:gravity="bottom|center"
+   android:background="#aa000000"
+   android:layout_column="1"
+   android:paddingRight="80dip"
+/>
+
+
+
+
+</TableRow>
+
+
+</TableLayout>
+
+
+
+
+<TextView
+android:id="@+id/cialink"
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text="@string/cialink"
+   android:gravity="center"
+   android:background="#aa000000"
+/>
+
+
+
+<TextView android:gravity="top|center" 
+android:text="Get Directions" 
+android:id="@+id/directions" 
+android:background="#aa000000"
+android:layout_height="50dip"
+android:layout_width="fill_parent">
+</TextView>
+
+<TextView 
+android:text="" 
+android:layout_height="15dip"
+android:layout_width="fill_parent">
+</TextView>
+
+<Button 
+   android:id ="@+id/btnClick"
+   android:layout_width="170dip"
+   android:layout_height="wrap_content"
+   android:text="Main Menu" android:gravity="center"
+   android:drawableLeft="@drawable/icon_btn"/>
+
+
+
+</LinearLayout>

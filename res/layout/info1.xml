@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:gravity="top|center">
+
+
+
+
+<TextView android:textStyle="bold" 
+android:id="@+id/TextView01" 
+android:text="Information" 
+android:textSize= "35sp" 
+android:gravity="top|center" 
+android:typeface="sans" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"></TextView>
+
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="20dip"
+   android:text="A Concert"
+   android:gravity="center"
+   android:background="#aa000000"
+   
+/>
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="20dip"
+   android:text="Featuring &quot;A Well Known Group&quot;"
+   android:gravity="center"
+   android:background="#aa000000"/>
+   
+   <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="20dip"
+   android:text="Is to be held at the Cardiff International Arena"
+   android:gravity="center"
+   android:background="#aa000000"/>
+   
+   <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="20dip"
+   android:text="On Friday, July 13th from 9pm-1am"
+   android:gravity="center"
+   android:background="#aa000000"/>
+
+<TextView 
+android:layout_width="fill_parent"
+android:layout_height="15dip"
+android:text=""
+/>
+
+<Button android:gravity="center" 
+android:text="Tour Dates" 
+android:id="@+id/tour"
+android:drawableLeft="@drawable/information_btn" 
+android:layout_width="170dip" 
+android:layout_height="wrap_content"></Button>
+
+<Button android:gravity="center" 
+android:text="Venue Info" 
+android:id="@+id/venue" 
+android:drawableLeft="@drawable/information_btn"
+android:layout_width="170dip" 
+android:layout_height="wrap_content"></Button>
+
+<Button android:gravity="center" 
+android:text="Seating Info" 
+android:id="@+id/seats" 
+android:drawableLeft="@drawable/information_btn"
+android:layout_width="170dip" 
+android:layout_height="wrap_content"></Button>
+
+<Button android:gravity="center" 
+android:text="Book a Ticket" 
+android:id="@+id/bookaticket" 
+android:drawableLeft="@drawable/rate_btn"
+android:layout_width="170dip" 
+android:layout_height="wrap_content"></Button>
+
+<Button android:gravity="center" 
+android:text="Media" 
+android:id="@+id/media"
+android:drawableLeft="@drawable/media1_btn" 
+android:layout_width="170dip" 
+android:layout_height="wrap_content"></Button>
+
+
+
+
+
+<Button 
+   android:id ="@+id/main_menu"
+   android:layout_width="170dip"
+   android:layout_height="wrap_content"
+   android:text="Main Menu" android:gravity="center"
+   android:drawableLeft="@drawable/icon_btn"/>
+
+
+
+
+</LinearLayout>

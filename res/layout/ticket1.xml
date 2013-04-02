@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:gravity="center|top"
+>
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text="Ticket Booth"
+   android:textSize="30dip"
+   android:gravity="center"
+   
+/>
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="10dip"
+   android:text=""
+   
+/>
+
+
+<TableLayout 
+android:id="@+id/TableLayout02" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+>
+
+<TableRow android:id="@+id/TableRow04" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+
+<TextView
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content"
+   android:text="Name: "
+   android:textSize="20dip"/>
+
+<EditText 
+android:id="@+id/name" 
+android:layout_width="200dip" 
+android:layout_height="wrap_content"
+android:layout_column="1"
+android:singleLine="true"
+android:hint="Your Name Here"
+android:paddingRight="15dip"
+>
+</EditText>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow05" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+
+<TextView
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content"
+   android:text="Email: "
+   android:textSize="20dip"/>
+
+<EditText 
+android:id="@+id/email" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:layout_column="1"
+android:singleLine="true"
+android:hint="Your Email Address Here"
+android:paddingRight="15dip"
+>
+</EditText>
+</TableRow>
+
+</TableLayout>
+
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="30dip"
+   android:text="Quantity (1-9)  "
+   android:textSize="20dip"
+   android:gravity="right"
+   
+   />
+
+<TableLayout 
+android:id="@+id/TableLayout01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+
+<TableRow android:id="@+id/TableRow01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+
+<TextView
+   android:layout_width="200dip" 
+   android:layout_height="wrap_content"
+   android:text="£ 10  -  The Pit"
+   android:textSize="20dip"/>
+
+<EditText 
+android:id="@+id/pit" 
+android:layout_width="40dip" 
+android:layout_height="wrap_content"
+android:layout_column="1"
+android:singleLine="true"
+android:digits="//0123456789"
+android:gravity="center"
+android:maxLength="1"
+>
+</EditText>
+
+</TableRow>
+
+<TableRow android:id="@+id/TableRow02" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+
+<TextView
+   android:layout_width="200dip" 
+   android:layout_height="wrap_content"
+   android:text="£ 25  -  The Stands"
+   android:textSize="20dip"/>
+
+<EditText 
+android:id="@+id/stands" 
+android:layout_width="40dip" 
+android:layout_height="wrap_content"
+android:layout_column="1"
+android:singleLine="true"
+android:digits="//0123456789"
+android:gravity="center"
+android:maxLength="1"
+>
+</EditText>
+
+</TableRow>
+
+<TableRow android:id="@+id/TableRow03" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+
+<TextView
+   android:layout_width="200dip" 
+   android:layout_height="wrap_content"
+   android:text="£ 35  -  The Balcony"
+   android:textSize="20dip"/>
+
+<EditText 
+android:id="@+id/balcony" 
+android:layout_width="40dip" 
+android:layout_height="wrap_content"
+android:layout_column="1"
+android:singleLine="true"
+android:digits="//0123456789"
+android:gravity="center"
+android:maxLength="1"
+>
+</EditText>
+
+</TableRow>
+</TableLayout>
+   
+   <TextView
+	android:text="Click Me for More Info | Your Receipt acts as your Voucher | Use your Voucher to claim your tickets at the Door | No Credit Card info is needed | You are charged on you phone bill | You can purchase multiple tickets on one voucher | END"
+	android:id="@+id/MarqueeText" 
+	android:layout_width="fill_parent"
+	android:layout_height="30dip" 
+	android:singleLine="true"
+	android:ellipsize="marquee" 
+	android:marqueeRepeatLimit="marquee_forever"
+	android:scrollHorizontally="true" 
+	android:paddingLeft="15dip" 
+	android:paddingRight="15dip" 
+	android:focusable="true" 
+	android:focusableInTouchMode="true" 
+	android:freezesText="true"
+	android:gravity="center"
+	android:background="#aa000000"
+	android:clickable="true">
+	</TextView>
+   
+   <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="10dip"
+   android:text=""
+   />
+   
+   <TableLayout 
+android:id="@+id/TableLayout03" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+>
+<TableRow android:id="@+id/TableRow06" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+
+
+   
+   <Button 
+   android:id ="@+id/cancel"
+   android:layout_width="150dip"
+   android:layout_height="wrap_content"
+   android:text="Seat Info" android:gravity="center"
+   
+android:drawableLeft="@drawable/information_btn"
+   />
+   
+   <Button 
+   android:id ="@+id/review_purchase"
+   android:layout_width="150dip"
+   android:layout_height="wrap_content"
+   android:text="Review Purchase" android:gravity="center"
+   android:layout_column="1"/>
+</TableRow>
+</TableLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+android:gravity="bottom|center">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="350dip"
+>
+
+
+
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="100dip"
+   android:text="Ratings"
+   android:textSize="30sp"
+   android:gravity="top|center"
+/>
+
+
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text="Your Rating"
+   android:background="#aa000000"
+/>
+
+<RatingBar 
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   style="?android:attr/ratingBarStyleIndicator"
+   android:id="@+id/ratingbar_Indicator"
+   />
+    
+    <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="20dip"
+   android:text=""
+/>
+    
+    <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text="Avg Rating"
+   android:background="#aa000000"
+/>
+<RatingBar 
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   style="?android:attr/ratingBarStyleIndicator"
+   android:id="@+id/avg_ratingbar"
+   />
+   
+   
+   
+   
+    
+
+</LinearLayout>
+
+ <TableLayout 
+     android:id="@+id/TableLayout01" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:gravity="bottom|center">
+     
+     <TableRow android:id="@+id/TableRow01"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content">
+     
+     <Button android:gravity="center" 
+android:text="Media" 
+android:id="@+id/media"
+android:drawableLeft="@drawable/media1_btn" 
+android:layout_width="150dip" 
+android:layout_height="wrap_content"></Button>
+
+ <Button 
+   android:id ="@+id/btnClick"
+   android:layout_width="150dip"
+   android:layout_height="wrap_content"
+   android:text="Main Menu" android:gravity="center"
+   android:drawableLeft="@drawable/icon_btn"
+   android:layout_column="1"/>
+        
+     </TableRow>
+     </TableLayout>
+
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="15dip"
+   android:text=""
+/>
+   
+  
+   
+</LinearLayout>

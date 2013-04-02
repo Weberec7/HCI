@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent" android:gravity="top|center">
+
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text="Receipt"
+   android:gravity="bottom|center"
+   android:textSize="35dip"
+   />
+   
+   <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="10dip"
+   android:text=""
+   />
+   
+   <TextView
+   android:id="@+id/name"
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text="Name: Ethan Weber"
+   android:gravity="left"
+   />
+   
+   <TextView
+   android:id="@+id/email"
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text="Email: ec7soccer@gmail.com"
+   android:gravity="left"
+   />
+   
+    <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="15dip"
+   android:text=""
+   />
+   
+   <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text="Where: Cardiff International Arena"
+   />
+      <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text="When: July 15th 9pm - 1am"
+   />
+   <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text="Who: A Well Known Group"
+   />
+   
+   <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="10dip"
+   android:text=""
+   />
+   
+   <TextView
+   android:id="@+id/orderp"
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text=""
+   android:gravity="right"
+   android:background="#aa000000"
+   />
+   
+   <TextView
+   android:id="@+id/orders"
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text=""
+   android:gravity="right"
+   android:background="#aa000000"
+   />
+   <TextView
+   android:id="@+id/orderb"
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text=""
+   android:gravity="right"
+   android:background="#aa000000"
+   />
+   
+   <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="20dip"
+   android:text=""
+   android:background="#aa000000"
+   />
+   
+   <TextView
+   android:id="@+id/total"
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text="*Your Total:  £ 00   "
+   android:gravity="right"
+   android:background="#aa000000"
+   />
+   
+   <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="20dip"
+   android:text=""
+   android:background="#aa000000"
+   />
+   
+    <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="50dip"
+   android:text="*The Cost of the ticket will be added to your phone bill."
+   android:background="#aa000000"
+   />
+   
+   <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="20dip"
+   android:text=""
+   />
+
+
+
+<Button android:gravity="center" 
+android:text="Finish" 
+android:id="@+id/btnClick3" 
+android:layout_width="170dip" 
+android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

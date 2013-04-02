@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent" android:gravity="bottom|center">
+
+
+<TextView android:text="" 
+android:layout_width="fill_parent" 
+android:layout_height="15dip">
+</TextView>
+
+<TextView android:text="Seating Info" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:textSize="30dip"
+android:gravity="center">
+</TextView>
+<TextView android:text="" 
+android:layout_width="fill_parent" 
+android:layout_height="40dip">
+</TextView>
+
+<TextView android:text="" 
+android:layout_width="fill_parent" 
+android:layout_height="15dip"
+android:background="#aa000000">
+</TextView>
+
+<TextView android:text="The Pit:" 
+android:layout_width="fill_parent"  
+android:layout_height="wrap_content"
+android:background="#aa000000">
+</TextView>
+
+<TextView android:text="" android:layout_width="fill_parent"  
+android:layout_height="15dip"
+android:background="#aa000000"
+android:gravity="right">
+</TextView>
+
+<TextView android:text="These tickets are located in the general floor area by the stage and require standing"  
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:background="#aa000000"
+android:gravity="right"
+android:paddingRight="15dip">
+</TextView>
+
+<TextView android:text="The Stands:" android:layout_width="fill_parent"  
+android:layout_height="wrap_content"
+android:background="#aa000000">
+</TextView>
+
+<TextView android:text="" android:layout_width="fill_parent" 
+android:layout_height="15dip"
+android:background="#aa000000"
+android:gravity="right">
+</TextView>
+
+<TextView android:text="These tickets are located behind the pit and have seating available"  
+android:layout_width="fill_parent"  
+android:layout_height="wrap_content"
+android:background="#aa000000"
+android:gravity="right"
+android:paddingRight="15dip">
+</TextView>
+
+<TextView android:text="The Balcony: " android:layout_width="fill_parent"  
+android:layout_height="wrap_content"
+android:background="#aa000000">
+</TextView>
+
+<TextView android:text="" android:layout_width="fill_parent"  
+android:layout_height="15dip"
+android:background="#aa000000"
+android:gravity="right">
+</TextView>
+
+<TextView android:text="These tickets are located above the stands and have seating and catering"  
+android:layout_width="fill_parent"  
+android:layout_height="wrap_content"
+android:background="#aa000000"
+android:gravity="right"
+android:paddingRight="15dip">
+</TextView>
+<TextView android:text="" 
+android:layout_width="fill_parent" 
+android:layout_height="15dip"
+android:background="#aa000000">
+</TextView>
+
+<TextView android:text="" android:layout_width="fill_parent" 
+android:layout_height="40dip"
+android:gravity="right">
+</TextView>
+<TableLayout 
+android:id="@+id/TableLayout03" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+>
+<TableRow android:id="@+id/TableRow06" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+
+<Button android:gravity="center" 
+android:text="Book a Ticket" 
+android:id="@+id/Face1" 
+android:layout_width="170dip" 
+android:layout_height="wrap_content"
+android:drawableLeft="@drawable/ticket1_btn">
+</Button>
+
+<Button android:gravity="center" 
+android:text="Main Menu" 
+android:id="@+id/Face2" 
+android:layout_width="170dip" 
+android:layout_height="wrap_content"
+android:drawableLeft="@drawable/icon_btn"
+android:layout_column="1">
+</Button>
+
+</TableRow>
+</TableLayout>
+
+<TextView android:text="" android:layout_width="fill_parent" 
+android:layout_height="15dip"
+android:gravity="right">
+</TextView>
+
+
+</LinearLayout>

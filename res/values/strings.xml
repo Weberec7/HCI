@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="band">A Well Known Group</string>
+    <string name="app_name">CW2_Ethan</string>
+    <string name="Venue">Playing at the Cardiff International Arena! </string>
+    <string name="date">15th July from 9pm - 1am</string>
+    <string name="menu">Main Menu</string>
+    <string name="login">You are logged in as Ethan Weber</string>
+    <string name="cialink">http://www.cardiffworld.com/info/Cardiff-International-Arena/Cardiff-International-Arena.html</string>
+
+
+</resources>
+

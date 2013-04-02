@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fpopup_menu_root"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:gravity="center|bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"
+   android:text="A Concert Featuring :"
+   android:gravity="top|center"
+   android:textSize="25sp"
+/>
+
+<ImageView
+android:id="@+id/imagelogo"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/awkg_logo"
+android:gravity="center"
+/>
+
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="20dip"
+   android:text="You are logged in as Ethan Weber "
+   android:gravity="center"
+   android:textSize="15sp"
+/>
+
+
+
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="25dip"
+   android:text="Mark me as... "
+   android:gravity="center"
+/>
+
+<TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="15dip"
+   android:text=""
+/>
+        
+        <RadioGroup 
+        android:id="@+id/RadioGroup01" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+        
+          <RadioButton android:text="  Attending" 
+        android:id="@+id/RadioButton01" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+        </RadioButton>
+          <RadioButton android:text="  Maybe" 
+        android:id="@+id/RadioButton02" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+        </RadioButton>
+          <RadioButton android:text="  Decline" 
+        android:id="@+id/RadioButton03" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+        </RadioButton>
+        
+        
+        
+        
+        </RadioGroup>
+        
+        <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="15dip"
+   android:text=""
+/>
+        <TableLayout 
+     android:id="@+id/TableLayout01" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:gravity="center">
+     
+     <TableRow android:id="@+id/TableRow01"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content">
+     
+     <Button android:id="@+id/popup_menu_button1"
+        android:text="Cancel"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content" 
+        android:padding="3dip"/>
+    <Button android:id="@+id/popup_menu_button2"
+        android:text="Submit"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_column="1" 
+        android:padding="3dip"/>
+        
+     </TableRow>
+     </TableLayout>
+     
+     <TextView
+   android:layout_width="fill_parent" 
+   android:layout_height="15dip"
+   android:text=""
+/>
+
+
+
+
+
+</LinearLayout>
